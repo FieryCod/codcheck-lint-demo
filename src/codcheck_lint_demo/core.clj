@@ -6,6 +6,12 @@
      (println "Whooops!!...")
      nil)))
 
+(defn abcdefg
+  ([a b c]
+   (if (and (not a) (not b) (not c))
+     (println "Whooops!!...")
+     nil)))
+
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
